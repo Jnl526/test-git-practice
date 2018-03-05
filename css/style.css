@@ -27,6 +27,10 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+ a {
+    color: #3A88C7;
+    text-decoration: none;
+ }
 
 h1, 
 h2, 
@@ -44,16 +48,22 @@ h6 {
 
 h1 {
     color: #8E8E8E;
-    font-size: 34px;
+    font-size: 40px;
     font-weight: bold;
 }
 
+h2 {
+    color: #5A5A5A;
+    font-weight: bold;
+}
 ul {
     list-style: none outside;
-    display: block;
     -webkit-padding-start: 0;
 }
 
+ul li {
+    display: inline-block;
+}
 img {
     max-width: 100%;
     height: auto;
@@ -76,8 +86,16 @@ img {
     padding: 24px 0;
 }
 
+.info {
+    padding -top: 15px;
+}
+.press img {
+   border: 4px solid #C5C5C5; 
+}
 
-
+.footer{
+    height: 50px;
+}
 
 @media  (max-width: 600px){
 .header {
