@@ -31,7 +31,10 @@ body {
     color: #3A88C7;
     text-decoration: none;
  }
-
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
 h1, 
 h2, 
 h3, 
